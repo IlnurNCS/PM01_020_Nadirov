@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9793b1303d454ae9968ec2b2cd80ef6b" Name="Diagram1">
+        <EntityTypeShape EntityType="Nadirov_YP01Model.City" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Country" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Events" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Jure" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Moderators" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Organizers" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.Participants" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Nadirov_YP01Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Nadirov_YP01Model.FK_Events_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Nadirov_YP01Model.FK_Jure_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Nadirov_YP01Model.FK_Organizers_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Nadirov_YP01Model.FK_Participants_Country" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

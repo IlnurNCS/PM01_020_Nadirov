@@ -1,0 +1,19 @@
+﻿<Page x:Class="PM._01.Pages.Organizator"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PM._01.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Organizator">
+
+    <Grid Background="White">
+        <Label Content="Окно организатора" HorizontalAlignment="Left" Margin="280,10,0,0" VerticalAlignment="Top" Height="46" Width="220" FontWeight="Bold" FontSize="22"/>
+        <Button Content="Мероприятия" HorizontalAlignment="Left" Margin="296,61,0,0" VerticalAlignment="Top" Width="182" Height="62" FontSize="16"/>
+        <Button Content="Участники" HorizontalAlignment="Left" Margin="296,146,0,0" VerticalAlignment="Top" Width="182" Height="62" FontSize="16"/>
+        <Button Content="Жюри" HorizontalAlignment="Left" Margin="296,230,0,0" VerticalAlignment="Top" Width="182" Height="62" FontSize="16"/>
+        <Button Content="    Мой&#xD;&#xA; профиль" HorizontalAlignment="Left" Margin="53,356,0,0" VerticalAlignment="Top" Width="124" Height="68" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Page>
